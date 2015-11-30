@@ -1,4 +1,4 @@
-package hw1;
+package DTAndKNNExperiment;
 
 import java.text.DecimalFormat;
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package hw1;
+package DTAndKNNExperiment;
 
 import java.io.File;
 import java.text.DecimalFormat;

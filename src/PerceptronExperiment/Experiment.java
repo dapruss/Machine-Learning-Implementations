@@ -1,4 +1,4 @@
-package hw2;
+package PerceptronExperiment;
 
 import java.io.File;
 import java.io.FileNotFoundException;

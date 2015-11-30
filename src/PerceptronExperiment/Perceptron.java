@@ -1,4 +1,4 @@
-package hw2;
+package PerceptronExperiment;
 
 import java.util.ArrayList;
 import java.util.Collections;

@@ -1,4 +1,4 @@
-package hw4;
+package SVMExperiment;
 
 import java.text.DecimalFormat;
 import java.util.ArrayList;

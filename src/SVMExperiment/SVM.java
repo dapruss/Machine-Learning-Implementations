@@ -1,4 +1,4 @@
-package hw4;
+package SVMExperiment;
 
 import java.util.ArrayList;
 import java.util.Collections;

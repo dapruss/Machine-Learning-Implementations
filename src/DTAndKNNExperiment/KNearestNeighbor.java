@@ -1,4 +1,4 @@
-package hw1;
+package DTAndKNNExperiment;
 
 import java.util.ArrayList;
 import java.util.Arrays;

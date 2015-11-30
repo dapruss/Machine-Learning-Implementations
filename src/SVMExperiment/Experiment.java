@@ -1,4 +1,4 @@
-package hw4;
+package SVMExperiment;
 
 import java.io.File;
 import java.io.FileNotFoundException;

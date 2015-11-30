@@ -1,4 +1,4 @@
-package hw1;
+package DTAndKNNExperiment;
 
 public class HammingDistance implements Comparable<HammingDistance>{
 
