@@ -8,9 +8,19 @@ I created a simple Decision Tree data structure and populated it using the ID3 a
 
 Each tic-tac-toe data file, e.g. tic-tac-toe-test.txt, has rows that look like this: "b,b,o,x,x,x,b,b,o,positive" where b = blank, x = marked with an X, and o = marked with an O. The first 3 letters represent the 1st row of the board, the 4th-6th letters represent the second row, the 7th-9th letters represent the 3rd row of the board, and the label 'positive' or 'negative' denotes whether X is the winner or not. So for instance, the example above has X as the winner and would look like this in board form:
 
-|   |   | O |
-| X | X | X |
-|   |   | O |
+| X | Y |
+--- |----
+10.0	| 9.14
+8.0	| 8.14
+ 13.0	| 8.74
+ 9.0	|8.77
+ 11.0	|9.26
+ 14.0	|8.10
+ 6.0	|6.13
+ 4.0	|3.10
+ 12.0	|9.13
+ 7.0	|7.26
+ 5.0	|4.74
 
 |  |   | O |
 --- |----
