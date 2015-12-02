@@ -2,6 +2,7 @@
 
 To create my SVM, I built on my Perceptron implementation but modified the update condition and update process with stochastic sub-gradient descent. An SVM learns a classifier by minimizing this loss function (note: bold-face denotes vectors):
 ![SVM_loss](pictures/SVM_loss.JPG)
+
 C is a hyper-parameter that controls the importance of the first term relative to the second (error) term; x is a vector full of real numbers, and y is a negative or positive label.
 
 Stochastic Gradient Descent (SGD)
