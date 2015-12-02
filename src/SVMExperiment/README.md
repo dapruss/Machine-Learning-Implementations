@@ -8,8 +8,10 @@ C is a hyper-parameter that controls the importance of the first term relative t
 Stochastic Gradient Descent (SGD)
 SGD is like traditional gradient descent, except the gradient is calculated using only a single example. 
 ![SGD_loop](pictures/SGD_loop.JPG)
+
 The gradient is defined in the following way:
 ![SGD_formula](pictures/SGD_formula.JPG)
+
 The learning rate r is a function of the initial learning rate, ρ0, and the example number, t.
 
 ## Data
