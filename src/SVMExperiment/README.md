@@ -5,7 +5,8 @@ To create my SVM, I built on my Perceptron implementation but modified the updat
 
 C is a hyper-parameter that controls the importance of the first term relative to the second (error) term; x is a vector full of real numbers, and y is a negative or positive label.
 
-Stochastic Gradient Descent (SGD)
+##Stochastic Gradient Descent (SGD)
+
 SGD is like traditional gradient descent, except the gradient is calculated using only a single example. 
 
 ![SGD_loop](pictures/SGD_loop.JPG)
