@@ -1,6 +1,15 @@
 ## Support Vector Machine implementation
 
-To create a Support Vector Machine (SVM), I built on my Perceptron implementation but modified the update condition and step with stochastic sub-gradient descent.
+To create my SVM, I built on my Perceptron implementation but modified the update condition and update process with stochastic sub-gradient descent. An SVM learns a classifier by minimizing this loss function (note: bold-face denotes vectors):
+[SVM_loss](pictures/SVM_loss.JPG)
+C is a hyper-parameter that controls the importance of the first term relative to the second (error) term; x is a vector full of real numbers, and y is a negative or positive label.
+
+Stochastic Gradient Descent (SGD)
+SGD is like traditional gradient descent, except the gradient is calculated using only a single example. 
+[SGD_loop](pictures/SGD_loop.JPG)
+The gradient is defined in the following way:
+[SGD_formula](pictures/SGD_formula.JPG)
+The learning rate r is a function of the initial learning rate, ρ0, and the example number, t.
 
 ## Data
 
