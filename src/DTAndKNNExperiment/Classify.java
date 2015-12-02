@@ -21,12 +21,12 @@ public class Classify {
         
 		try{
 			ArrayList<File> files = new ArrayList<File>();
-			files.add(new File(new File("").getAbsolutePath() + "/" + "tic-tac-toe-train-1.txt"));
-			files.add(new File(new File("").getAbsolutePath() + "/" + "tic-tac-toe-train-2.txt"));
-			files.add(new File(new File("").getAbsolutePath() + "/" + "tic-tac-toe-train-3.txt"));
-			files.add(new File(new File("").getAbsolutePath() + "/" + "tic-tac-toe-train-4.txt"));
-			files.add(new File(new File("").getAbsolutePath() + "/" + "tic-tac-toe-train-5.txt"));
-			files.add(new File(new File("").getAbsolutePath() + "/" + "tic-tac-toe-train-6.txt"));
+			files.add(new File(new File("").getAbsolutePath() + "/tictactoe/" + "tic-tac-toe-train-1.txt"));
+			files.add(new File(new File("").getAbsolutePath() + "/tictactoe/" + "tic-tac-toe-train-2.txt"));
+			files.add(new File(new File("").getAbsolutePath() + "/tictactoe/" + "tic-tac-toe-train-3.txt"));
+			files.add(new File(new File("").getAbsolutePath() + "/tictactoe/" + "tic-tac-toe-train-4.txt"));
+			files.add(new File(new File("").getAbsolutePath() + "/tictactoe/" + "tic-tac-toe-train-5.txt"));
+			files.add(new File(new File("").getAbsolutePath() + "/tictactoe/" + "tic-tac-toe-train-6.txt"));
 		
 			for(File f : files){
 				Scanner in = new Scanner(f);
