@@ -1,4 +1,4 @@
-# Data
+## Data
 
 The training and test data sets I used are in the data0 and data1 folders. They contain files with the following naming convention: trainI.K and testI.K, where K represents the number of features in each data point. So for instance, train0.10 is a training set in data0 with 11 features (ten features, plus a constant bias feature) and the corresponding test data set is test0.10. Each row in the file is a single example and the format of the each row in the data is:
 
