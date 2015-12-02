@@ -23,7 +23,7 @@ Each tic-tac-toe data file, e.g. tic-tac-toe-test.txt, has rows that look like t
  5.0	|4.74
 
 |  |   | O |
---- |----
+--- |---- | ---
   |   | O
 X	| X | X
   |   | O
