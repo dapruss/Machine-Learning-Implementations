@@ -11,3 +11,9 @@ Each tic-tac-toe data file, e.g. tic-tac-toe-test.txt, has rows that look like t
 |   |   | O |
 | X | X | X |
 |   |   | O |
+
+|  |   | O |
+--- |----
+  |   | O
+X	| X | X
+  |   | O
