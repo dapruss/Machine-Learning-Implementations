@@ -1,6 +1,6 @@
 ## Perceptron implementation
 
-First, I implemented a regular perceptron. I perform an update on an example (x, y) (note: bold-face denotes vectors) if [perceptron](pictures/perceptron.JPG) This is the equivalent of checking if  the sign of the true label is the same as the predicted label; if they are different signs (positive and negative), their product is always negative. When the prediction is incorrect, we update the weight vector:
+First, I implemented a regular perceptron. I perform an update on an example (x, y) (note: bold-face denotes vectors) if ![perceptron](pictures/perceptron.JPG) This is the equivalent of checking if  the sign of the true label is the same as the predicted label; if they are different signs (positive and negative), their product is always negative. When the prediction is incorrect, we update the weight vector:
 ![update](pictures/update.JPG)
 Note that the data set includes a bias term, so the bias term does not need to be explicitly mentioned above. Here, w is a weight vector that I initialize to random values between 0 and 1 and r is a hyper-parameter that can be found using cross-validation on the data.
 
