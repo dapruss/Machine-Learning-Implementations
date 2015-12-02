@@ -1,4 +1,4 @@
-## Perceptron implementation                                                                                                 Back to 
+## Perceptron implementation
 
 First, I implemented a regular perceptron. I perform an update on an example (x, y) (note: bold-face denotes vectors) if [perceptron](pictures/perceptron.JPG) This is the equivalent of checking if  the sign of the true label is the same as the predicted label; if they are different signs (positive and negative), their product is always negative. When the prediction is incorrect, we update the weight vector:
 ![update](pictures/update.JPG)
