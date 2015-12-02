@@ -4,7 +4,8 @@ First, I implemented a regular perceptron. I perform an update on an example (x,
 This is the equivalent of checking if  the sign of the true label is the same as the predicted label; if they are different signs (positive and negative), their product is always negative. When the prediction is incorrect, we update the weight vector:
 
 ![perceptron](pictures/perceptron.JPG)
-Note that the data set includes a bias term, so the bias term does not need to be explicitly mentioned above. Here, w is a weight vector that I initialize to random values between 0 and 1 and r is a hyper-parameter that can be found using cross-validation on the data.
+
+Note that the data set already includes a bias term, so the bias term does not need to be explicitly mentioned above. Here, w is a weight vector that I initialize to random values between 0 and 1 and r is a hyper-parameter that can be found using cross-validation on the data.
 
 ## Margin Perceptron
 
